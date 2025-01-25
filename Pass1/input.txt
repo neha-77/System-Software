@@ -1,0 +1,15 @@
+-	LDS	#3
+-	LDT	#100
+-	LDX	#0
+ADDLP	+LDA	GAMMA,X
+-	ADD	ALPHA,X
+-	STA     BETA,X
+-	ADDR	S
+-	COMP    X,T
+-	JLT     ADDLP
+-	+STA    Count
+ALPHA	RESW	50
+ALPHA	RESW	50
+BETA    RESW    100
+GAMMA   RESW    100
+-	RSUB	-	
