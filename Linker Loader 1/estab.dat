@@ -1,0 +1,12 @@
+CS_NAME	EXT_SYM_NAME	ADDRESS	LENGTH
+--------------------------------------
+PROGA			3000	63
+	LISTA		3040	0
+	ENDA		3054	0
+PROGB			3063	7F
+	LISTB		30C3	0
+	ENDB		30D3	0
+PROGC			30E2	51
+	LISTC		3112	0
+	ENDC		3124	0
+--------------------------------------
